@@ -1,11 +1,12 @@
 ==========
 Identifier parsing
 ==========
-if (JOB_NAME =~ /PR-([0-9]+)/) {}
+if (JOB_NAME =~ "PR-([0-9]+)") {}
 String mazen = "hysm"
 def hysm = "system"
 import static docker.DockerImage.Platform
 ---
+
 (source_file
   (if_statement
     condition: (parenthesized_expression

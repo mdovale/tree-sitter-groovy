@@ -323,13 +323,15 @@ module.exports = grammar({
           ")"),
       )),
 
+    // Prefer binary/ternary/unary before `_primary_expression` so `chunk.sum() / x` is one
+    // division expression, not a `chunk.sum()` primary followed by a stray `/` (broken statement).
     _expression: $ => prec(1, choice(
-      $._primary_expression,
       $.increment_op,
       $.binary_op,
       $.ternary_op,
       $.unary_op,
       $.access_op,
+      $._primary_expression,
       $.closure,
       alias("null", $.null),
     )),
@@ -636,16 +638,9 @@ module.exports = grammar({
           ))),
         '"""',
       ),
-      seq( // slashy string, only slashes can be escaped
-        '/',
-        repeat1(choice(
-          alias(token.immediate(prec(1, /[^$\\\/]+/)), $.string_content),
-          alias('\\/', $.escape_sequence),
-          alias(/\\[^\/]/, $.string_content),
-          $.interpolation,
-        )),
-        '/',
-      ),
+      // Note: Slashy strings `/…/` are omitted. They collide with binary `/` in common code
+      // (`chunk.sum() / chunk.size()`); the upstream grammar parses `/` as a string opener and
+      // can swallow the rest of the file. Use double-quoted strings or dollar-slashy `$/…/$`.
       seq( // dollar slashy string
         '$/',
         repeat(choice(

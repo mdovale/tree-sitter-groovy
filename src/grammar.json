@@ -2136,10 +2136,6 @@
         "members": [
           {
             "type": "SYMBOL",
-            "name": "_primary_expression"
-          },
-          {
-            "type": "SYMBOL",
             "name": "increment_op"
           },
           {
@@ -2157,6 +2153,10 @@
           {
             "type": "SYMBOL",
             "name": "access_op"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "_primary_expression"
           },
           {
             "type": "SYMBOL",
@@ -3860,65 +3860,6 @@
             {
               "type": "STRING",
               "value": "\"\"\""
-            }
-          ]
-        },
-        {
-          "type": "SEQ",
-          "members": [
-            {
-              "type": "STRING",
-              "value": "/"
-            },
-            {
-              "type": "REPEAT1",
-              "content": {
-                "type": "CHOICE",
-                "members": [
-                  {
-                    "type": "ALIAS",
-                    "content": {
-                      "type": "IMMEDIATE_TOKEN",
-                      "content": {
-                        "type": "PREC",
-                        "value": 1,
-                        "content": {
-                          "type": "PATTERN",
-                          "value": "[^$\\\\\\/]+"
-                        }
-                      }
-                    },
-                    "named": true,
-                    "value": "string_content"
-                  },
-                  {
-                    "type": "ALIAS",
-                    "content": {
-                      "type": "STRING",
-                      "value": "\\/"
-                    },
-                    "named": true,
-                    "value": "escape_sequence"
-                  },
-                  {
-                    "type": "ALIAS",
-                    "content": {
-                      "type": "PATTERN",
-                      "value": "\\\\[^\\/]"
-                    },
-                    "named": true,
-                    "value": "string_content"
-                  },
-                  {
-                    "type": "SYMBOL",
-                    "name": "interpolation"
-                  }
-                ]
-              }
-            },
-            {
-              "type": "STRING",
-              "value": "/"
             }
           ]
         },

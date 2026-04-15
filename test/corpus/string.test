@@ -3,11 +3,13 @@ Basic double quoted string
 ==========
 x = "hello world"
 ---
+
 (source_file
   (assignment
     (identifier)
     (string
       (string_content))))
+
 ==========
 Escape sequences
 ==========
@@ -15,6 +17,7 @@ x = "hello\\world"
 y = "hello\"world"
 z = "hello \uff00 world"
 ---
+
 (source_file
   (assignment
     (identifier)
@@ -34,17 +37,27 @@ z = "hello \uff00 world"
       (string_content)
       (escape_sequence)
       (string_content))))
+
 ==========
-Slashy strings
+Strings without slashy literals (slashy /…/ omitted; conflicts with `/` division)
 ==========
-x = /hello/
-y = /hello\/world/
-z = /hello
+x = "hello"
+y = "hello/world"
+z = """hello
 world
-multiline/
-r = /regex\d+/
+multiline"""
+r = "regex\\d+"
 ---
+
 (source_file
+  (assignment
+    (identifier)
+    (string
+      (string_content)))
+  (assignment
+    (identifier)
+    (string
+      (string_content)))
   (assignment
     (identifier)
     (string
@@ -54,17 +67,8 @@ r = /regex\d+/
     (string
       (string_content)
       (escape_sequence)
-      (string_content)))
-  (assignment
-    (identifier)
-    (string
-      (string_content)))
-  (assignment
-    (identifier)
-    (string
-      (string_content)
-      (string_content)
       (string_content))))
+
 ==========
 interpolation
 ==========
@@ -72,6 +76,7 @@ x = "hello ${name}"
 x = "hello ${3 + 4 * 2}!"
 x = "hello \${3 + 4 * 2}"
 ---
+
 (source_file
   (assignment
     (identifier)
@@ -96,6 +101,7 @@ x = "hello \${3 + 4 * 2}"
       (string_content)
       (escape_sequence)
       (string_content))))
+
 ==========
 Multiline string
 ==========
@@ -108,6 +114,7 @@ plain backslashes \
 and ${interpolation}
 """
 ---
+
 (source_file
   (assignment
     (identifier)
@@ -122,11 +129,13 @@ and ${interpolation}
       (string_content)
       (interpolation
         (identifier)))))
+
 ==========
 Multiline edge case trailing quotes before interpolation
 ==========
 print("""hello world ""${0}""")
 ---
+
 (source_file
   (function_call
     function: (identifier)
@@ -135,12 +144,14 @@ print("""hello world ""${0}""")
         (string_content)
         (interpolation
           (number_literal))))))
+
 ==========
 Single quoted string
 ==========
 x = 'a + b \' + c'
 y = 'a + $3'
 ---
+
 (source_file
   (assignment
     (identifier)
@@ -152,17 +163,20 @@ y = 'a + $3'
     (identifier)
     (string
       (string_content))))
+
 ==========
 Multiline single quoted string
 ==========
 x = '''multiline string " with
 a bunch'' of quotes'''
 ---
+
 (source_file
   (assignment
     (identifier)
     (string
       (string_content))))
+
 ==========
 Dollar slashy string
 ==========
@@ -177,6 +191,7 @@ $dotted.interp
 $/ escaped slash
 /$
 ---
+
 (source_file
   (assignment
     (identifier)

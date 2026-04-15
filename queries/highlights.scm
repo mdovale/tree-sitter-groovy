@@ -85,18 +85,26 @@
   "&&" "||" "?:" "+" "*" ".&" ".@" "?." "*." "*" "*:" "++" "--" "!"
 ] @operator
 
-(string ("/") @string)
-
 (ternary_op ([ "?" ":" ]) @operator)
 
 (map (map_item key: (identifier) @variable.parameter))
 
 (parameter type: (identifier) @type name: (identifier) @variable.parameter)
+(parameter
+  type: (type_with_generics (identifier) @type)
+  name: (identifier) @variable.parameter)
+(parameter
+  type: (type_with_generics (generics (identifier) @type))
+  name: (identifier) @variable.parameter)
 (generic_param name: (identifier) @variable.parameter)
 
 (declaration type: (identifier) @type)
 (function_definition type: (identifier) @type)
+(function_definition type: (type_with_generics (identifier) @type))
+(function_definition type: (type_with_generics (generics (identifier) @type)))
 (function_declaration type: (identifier) @type)
+(function_declaration type: (type_with_generics (identifier) @type))
+(function_declaration type: (type_with_generics (generics (identifier) @type)))
 (class_definition name: (identifier) @type)
 (class_definition superclass: (identifier) @type)
 (generic_param superclass: (identifier) @type)
