@@ -1,4 +1,0 @@
-module TreeSitter {
-    umbrella "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include"
-    export *
-}

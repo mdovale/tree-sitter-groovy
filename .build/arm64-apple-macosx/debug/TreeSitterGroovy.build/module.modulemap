@@ -1,4 +1,0 @@
-module TreeSitterGroovy {
-    umbrella "/private/tmp/tree-sitter-groovy-fork/bindings/swift"
-    export *
-}
