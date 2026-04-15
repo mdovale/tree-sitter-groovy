@@ -1,0 +1,1433 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.xctest/Contents/MacOS/TreeSitterGroovyPackageTests",
+      "packagePath" : "/private/tmp/tree-sitter-groovy-fork",
+      "productName" : "TreeSitterGroovyPackageTests"
+    }
+  ],
+  "copyCommands" : {
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy_TreeSitterGroovy.bundle/queries" : {
+      "inputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/queries"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "directory",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy_TreeSitterGroovy.bundle/queries"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SwiftTreeSitter-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/sources",
+      "importPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Bundle+Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Encoding+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Input.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/InputEdit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Language.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/LanguageConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Point.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Predicate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Query.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/QueryDefinitions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryMatchSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/SendableTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+Data.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+TextProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TSRange.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Tree.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TreeCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/alloc.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/get_changed_ranges.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/language.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/lexer.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/node.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/parser.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/query.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/stack.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/subtree.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/tree.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/tree_cursor.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/wasm/stdlib.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/wasm_store.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftTreeSitter",
+      "moduleOutputPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitter.swiftmodule",
+      "objects" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Bundle+Extensions.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Encoding+Helpers.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Input.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/InputEdit.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Language.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/LanguageConfiguration.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Node.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Parser.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Point.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Predicate.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Query.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/QueryDefinitions.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryCursor.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryMatchSequence.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/SendableTypes.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+Data.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+TextProvider.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TSRange.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Tree.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TreeCursor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+        "-module-cache-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/include/SwiftTreeSitter-Swift.h",
+        "-swift-version",
+        "5",
+        "-enable-experimental-feature",
+        "StrictConcurrency",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-package-name",
+        "swift_tree_sitter"
+      ],
+      "outputFileMapPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Bundle+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Encoding+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Input.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/InputEdit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Language.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/LanguageConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Point.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Predicate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Query.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/QueryDefinitions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryMatchSequence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/SendableTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+Data.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+TextProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TSRange.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Tree.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TreeCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitter.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Bundle+Extensions.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Encoding+Helpers.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Input.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/InputEdit.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Language.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/LanguageConfiguration.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Node.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Parser.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Point.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Predicate.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Query.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/QueryDefinitions.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryCursor.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryMatchSequence.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/SendableTypes.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+Data.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+TextProvider.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TSRange.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Tree.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TreeCursor.swift"
+      ],
+      "tempsPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftTreeSitterLayer-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/sources",
+      "importPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/IndexSet+Range.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayerQueryCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/ParseState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Queryable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Snapshots.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/TreeSitter+Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitter.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftTreeSitterLayer",
+      "moduleOutputPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitterLayer.swiftmodule",
+      "objects" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.swift.o",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+        "-module-cache-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/include/SwiftTreeSitterLayer-Swift.h",
+        "-swift-version",
+        "5",
+        "-enable-experimental-feature",
+        "StrictConcurrency",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings",
+        "-package-name",
+        "swift_tree_sitter"
+      ],
+      "outputFileMapPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitterLayer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/IndexSet+Range.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayer.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayerQueryCursor.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/ParseState.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Queryable.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Snapshots.swift",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/TreeSitter+Extensions.swift"
+      ],
+      "tempsPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TreeSitterGroovyPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/sources",
+      "importPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/TreeSitterGroovyTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TreeSitterGroovyPackageTests",
+      "moduleOutputPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/TreeSitterGroovyPackageTests.swiftmodule",
+      "objects" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/bindings/swift",
+        "-module-cache-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/include/TreeSitterGroovyPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/TreeSitterGroovyPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.TreeSitterGroovyTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/sources",
+      "importPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/bindings/swift/TreeSitterGroovyTests/TreeSitterGroovyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/src/parser.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/SwiftTreeSitter.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "TreeSitterGroovyTests",
+      "moduleOutputPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/TreeSitterGroovyTests.swiftmodule",
+      "objects" : [
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/TreeSitterGroovyTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j16",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/bindings/swift",
+        "-Xcc",
+        "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+        "-module-cache-path",
+        "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/TreeSitterGroovyTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules/TreeSitterGroovyTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/private/tmp/tree-sitter-groovy-fork/bindings/swift/TreeSitterGroovyTests/TreeSitterGroovyTests.swift"
+      ],
+      "tempsPath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SwiftTreeSitter" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftTreeSitter",
+      "-package-name",
+      "swift_tree_sitter",
+      "-c",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Bundle+Extensions.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Encoding+Helpers.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Input.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/InputEdit.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Language.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/LanguageConfiguration.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Node.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Parser.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Point.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Predicate.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Query.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/QueryDefinitions.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryCursor.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryMatchSequence.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/SendableTypes.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+Data.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+TextProvider.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TSRange.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Tree.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TreeCursor.swift",
+      "-I",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+      "-module-cache-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/include/SwiftTreeSitter-Swift.h",
+      "-swift-version",
+      "5",
+      "-enable-experimental-feature",
+      "StrictConcurrency",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-package-name",
+      "swift_tree_sitter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftTreeSitterLayer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftTreeSitterLayer",
+      "-package-name",
+      "swift_tree_sitter",
+      "-c",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/IndexSet+Range.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayer.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayerQueryCursor.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/ParseState.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Queryable.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Snapshots.swift",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/TreeSitter+Extensions.swift",
+      "-I",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+      "-module-cache-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/include/SwiftTreeSitterLayer-Swift.h",
+      "-swift-version",
+      "5",
+      "-enable-experimental-feature",
+      "StrictConcurrency",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-package-name",
+      "swift_tree_sitter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TreeSitterGroovyPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TreeSitterGroovyPackageTests",
+      "-c",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift",
+      "-I",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/bindings/swift",
+      "-module-cache-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/include/TreeSitterGroovyPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "TreeSitterGroovyTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "TreeSitterGroovyTests",
+      "-c",
+      "/private/tmp/tree-sitter-groovy-fork/bindings/swift/TreeSitterGroovyTests/TreeSitterGroovyTests.swift",
+      "-I",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j16",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/bindings/swift",
+      "-Xcc",
+      "-fmodule-map-file=/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/tree-sitter/lib/include",
+      "-module-cache-path",
+      "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SwiftTreeSitter" : [
+      "TreeSitter"
+    ],
+    "SwiftTreeSitterLayer" : [
+      "SwiftTreeSitter",
+      "TreeSitter"
+    ],
+    "TreeSitter" : [
+
+    ],
+    "TreeSitterGroovy" : [
+
+    ],
+    "TreeSitterGroovyPackageTests" : [
+      "TreeSitterGroovyTests",
+      "SwiftTreeSitter",
+      "TreeSitter",
+      "TreeSitterGroovy"
+    ],
+    "TreeSitterGroovyTests" : [
+      "SwiftTreeSitter",
+      "TreeSitter",
+      "TreeSitterGroovy"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Bundle+Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Encoding+Helpers.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Input.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/InputEdit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Language.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/LanguageConfiguration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Point.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Predicate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Query.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/QueryDefinitions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/ResolvingQueryMatchSequence.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/SendableTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+Data.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/String+TextProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TSRange.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/Tree.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitter/TreeCursor.swift"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/sources"
+    },
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/IndexSet+Range.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayerQueryCursor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/ParseState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Queryable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Snapshots.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/TreeSitter+Extensions.swift"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/sources"
+    },
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/sources"
+    },
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Bundle+Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Encoding+Helpers.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Input.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/InputEdit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Language.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/LanguageConfiguration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Point.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Predicate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Query.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/QueryDefinitions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/ResolvingQueryMatchSequence.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/SendableTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+Data.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/String+TextProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TSRange.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/Tree.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitter.build/TreeCursor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/alloc.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/get_changed_ranges.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/language.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/lexer.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/node.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/parser.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/query.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/stack.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/subtree.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/tree.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/tree_cursor.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/wasm/stdlib.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitter.build/src/wasm_store.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovy.build/src/parser.c.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/TreeSitterGroovyTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.product/Objects.LinkFileList"
+    },
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/private/tmp/tree-sitter-groovy-fork/bindings/swift/TreeSitterGroovyTests/TreeSitterGroovyTests.swift"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyTests.build/sources"
+    },
+    "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

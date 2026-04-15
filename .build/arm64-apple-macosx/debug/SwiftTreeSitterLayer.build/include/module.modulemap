@@ -1,0 +1,3 @@
+module SwiftTreeSitterLayer {
+    header "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/include/SwiftTreeSitterLayer-Swift.h"
+}

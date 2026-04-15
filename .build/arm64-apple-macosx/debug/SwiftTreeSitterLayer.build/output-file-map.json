@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/primary.swiftdeps"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/IndexSet+Range.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/IndexSet+Range.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayer.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayer.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/LanguageLayerQueryCursor.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/LanguageLayerQueryCursor.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/ParseState.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/ParseState.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Queryable.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Queryable.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/Snapshots.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/Snapshots.dia"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/checkouts/swift-tree-sitter/Sources/SwiftTreeSitterLayer/TreeSitter+Extensions.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/SwiftTreeSitterLayer.build/TreeSitter+Extensions.dia"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/primary.swiftdeps"
+  },
+  "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.derived/runner.swift": {
+    "dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.d",
+    "object": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.swift.o",
+    "swiftmodule": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.swiftdeps",
+    "diagnostics": "/private/tmp/tree-sitter-groovy-fork/.build/arm64-apple-macosx/debug/TreeSitterGroovyPackageTests.build/runner.dia"
+  }
+}
